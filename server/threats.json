@@ -1,0 +1,2794 @@
+{  
+    "markers":[  
+        {  
+            "label":"Diarrhea",
+            "lat":18.894400000000001,
+            "lon":-70.4846,
+            "place_name":"Dominican Republic"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.4481000000000002,
+            "lon":-9.3079000000000001,
+            "place_name":"Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.5602999999999998,
+            "lon":-11.7919,
+            "place_name":"Sierra Leone"
+        },
+        {  
+            "label":"Cholera, Ebola",
+            "lat":10.4382,
+            "lon":-10.941800000000001,
+            "place_name":"Guinea"
+        },
+        {  
+            "label":"Bluetongue",
+            "lat":42.761400000000002,
+            "lon":25.2315,
+            "place_name":"Bulgaria"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":34.016199999999998,
+            "lon":113.9941,
+            "place_name":"Henan Province, China"
+        },
+        {  
+            "label":"Avian Influenza, Fever, HIV/AIDS",
+            "lat":39.928899999999999,
+            "lon":116.3883,
+            "place_name":"Beijing, China"
+        },
+        {  
+            "label":"Not Yet Classified",
+            "lat":55.333300000000001,
+            "lon":51,
+            "place_name":"Tatarstan"
+        },
+        {  
+            "label":"Gastroenteritis, Hantavirus, Norovirus",
+            "lat":-35.376399999999997,
+            "lon":-64.167699999999996,
+            "place_name":"Argentina"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H7N9, Dengue, Diarrhea",
+            "lat":23.116599999999998,
+            "lon":113.25,
+            "place_name":"Guangzhou, Guangdong, China"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H7N9, Diarrhea",
+            "lat":24.8764,
+            "lon":112.84050000000001,
+            "place_name":"Guangdong Province, China"
+        },
+        {  
+            "label":"Ebola",
+            "lat":17.350300000000001,
+            "lon":-3.5244,
+            "place_name":"Mali"
+        },
+        {  
+            "label":"Campylobacter",
+            "lat":64.997600000000006,
+            "lon":-18.605499999999999,
+            "place_name":"Iceland"
+        },
+        {  
+            "label":"Chikungunya, Dengue",
+            "lat":23.950500000000002,
+            "lon":-102.5329,
+            "place_name":"Mexico"
+        },
+        {  
+            "label":"Dengue",
+            "lat":28,
+            "lon":-113.5,
+            "place_name":"Baja California, Mexico"
+        },
+        {  
+            "label":"Dengue",
+            "lat":29.333300000000001,
+            "lon":-110.66670000000001,
+            "place_name":"Sonora, Mexico"
+        },
+        {  
+            "label":"Chikungunya, Dengue",
+            "lat":14.8192,
+            "lon":-86.619100000000003,
+            "place_name":"Honduras"
+        },
+        {  
+            "label":"Dengue",
+            "lat":13.316700000000001,
+            "lon":-87.216700000000003,
+            "place_name":"Choluteca, Choluteca, Honduras"
+        },
+        {  
+            "label":"Chikungunya, Dengue",
+            "lat":19.331800000000001,
+            "lon":-81.243899999999996,
+            "place_name":"Cayman Islands [UK]"
+        },
+        {  
+            "label":"Dengue",
+            "lat":20.800000000000001,
+            "lon":-75.75,
+            "place_name":"Provincia de Holguín, Cuba"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-10.773099999999999,
+            "lon":-53.089799999999997,
+            "place_name":"Brazil"
+        },
+        {  
+            "label":"Antibiotic resistance, Chikungunya, Dengue",
+            "lat":7.1224999999999996,
+            "lon":-66.169600000000003,
+            "place_name":"Venezuela"
+        },
+        {  
+            "label":"Dengue",
+            "lat":10,
+            "lon":-72.166700000000006,
+            "place_name":"Estado Zulia, Venezuela"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H7N9, Ebola, Foot and Mouth, HIV/AIDS, Plague",
+            "lat":36.520000000000003,
+            "lon":103.8918,
+            "place_name":"China"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H7N9, HIV/AIDS",
+            "lat":28.9985,
+            "lon":120.0146,
+            "place_name":"Zhejiang Province, China"
+        },
+        {  
+            "label":"Dengue",
+            "lat":26.083300000000001,
+            "lon":-98.283299999999997,
+            "place_name":"Reynosa, Tamaulipas, Mexico"
+        },
+        {  
+            "label":"Ebola",
+            "lat":14.367000000000001,
+            "lon":-14.467700000000001,
+            "place_name":"Senegal"
+        },
+        {  
+            "label":"Polio",
+            "lat":12.25,
+            "lon":7.5,
+            "place_name":"Katsina State, Nigeria"
+        },
+        {  
+            "label":"Hepatitis A",
+            "lat":50.783000000000001,
+            "lon":-1.0926,
+            "place_name":"Southsea, England, United Kingdom"
+        },
+        {  
+            "label":"HIV/AIDS, Influenza",
+            "lat":30.486499999999999,
+            "lon":102.4804,
+            "place_name":"Sichuan Province, China"
+        },
+        {  
+            "label":"Ebola, HIV/AIDS, Polio",
+            "lat":9.5939999999999994,
+            "lon":8.1052999999999997,
+            "place_name":"Nigeria"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H7N9, Foot and Mouth, HIV/AIDS",
+            "lat":32.990200000000002,
+            "lon":120.0146,
+            "place_name":"Jiangsu Province, China"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":35.995699999999999,
+            "lon":96.020499999999998,
+            "place_name":"Qinghai Province, China"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":41.012999999999998,
+            "lon":123.0029,
+            "place_name":"Liaoning Province, China"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":39.130000000000003,
+            "lon":117.15819999999999,
+            "place_name":"Tianjin, China"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-23.310300000000002,
+            "lon":-51.162799999999997,
+            "place_name":"Londrina, Paraná, Brazil"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":35.995699999999999,
+            "lon":108.9843,
+            "place_name":"Shaanxi Province, China"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":40.286200000000001,
+            "lon":44.947400000000002,
+            "place_name":"Armenia"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":25.0059,
+            "lon":101.997,
+            "place_name":"Yunnan Province, China"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":38,
+            "lon":102,
+            "place_name":"Gansu Province, China"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-28.25,
+            "lon":-56.25,
+            "place_name":"Departamento Santo Tomé, Corrientes, Argentina"
+        },
+        {  
+            "label":"Avian Influenza, HIV/AIDS",
+            "lat":38.736899999999999,
+            "lon":115.0488,
+            "place_name":"Hebei Province, China"
+        },
+        {  
+            "label":"Bacterial Meningitis",
+            "lat":9.1667000000000005,
+            "lon":-80,
+            "place_name":"Provincia de Colón, Panama"
+        },
+        {  
+            "label":"Dengue",
+            "lat":18.883800000000001,
+            "lon":-97.108599999999996,
+            "place_name":"Córdoba, Veracruz, Mexico"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-10.911099999999999,
+            "lon":-37.0717,
+            "place_name":"Aracaju, Sergipe, Brazil"
+        },
+        {  
+            "label":"Dengue, Environmental, Rocky Mountain Spotted Fever",
+            "lat":-22.4114,
+            "lon":-47.561399999999999,
+            "place_name":"Rio Claro, São Paulo, Brazil"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":12.8399,
+            "lon":-85.034800000000004,
+            "place_name":"Nicaragua"
+        },
+        {  
+            "label":"Cholera, Diarrhea",
+            "lat":18.800000000000001,
+            "lon":-71.2333,
+            "place_name":"San Juan de la Maguana, San Juan, Dominican Republic"
+        },
+        {  
+            "label":"Diarrhea",
+            "lat":18.8752,
+            "lon":-71.237700000000004,
+            "place_name":"Juan de Herrera, Dominican Republic"
+        },
+        {  
+            "label":"Chikungunya, Influenza, West Nile Virus",
+            "lat":28.1495,
+            "lon":-81.650400000000005,
+            "place_name":"Florida, United States"
+        },
+        {  
+            "label":"Coronavirus, MERS",
+            "lat":24.123000000000001,
+            "lon":44.546199999999999,
+            "place_name":"Saudi Arabia"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":-32,
+            "lon":-64,
+            "place_name":"Cordoba, Argentina"
+        },
+        {  
+            "label":"Anthrax",
+            "lat":45.666699999999999,
+            "lon":17,
+            "place_name":"Bjelovarsko-Bilogorska Županija, Bjelovarsko-Bilogorska, Croatia"
+        },
+        {  
+            "label":"Cholera",
+            "lat":18.583300000000001,
+            "lon":-70.799999999999997,
+            "place_name":"Provincia de Azua, Azua, Dominican Republic"
+        },
+        {  
+            "label":"Antibiotic resistance",
+            "lat":10.474399999999999,
+            "lon":-66.842500000000001,
+            "place_name":"Clinica Santa Sofia, Caracas, Venezuela"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-14,
+            "lon":-65.5,
+            "place_name":"Departamento del Beni, Bolivia"
+        },
+        {  
+            "label":"BSE",
+            "lat":41.548200000000001,
+            "lon":-8.4254999999999995,
+            "place_name":"Distrito de Braga, Braga, Portugal"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N8, Ebola, Listeriosis",
+            "lat":51.1066,
+            "lon":10.393700000000001,
+            "place_name":"Germany"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":35.367899999999999,
+            "lon":133.85079999999999,
+            "place_name":"Tottori Prefecture, Japan"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N8, Influenza",
+            "lat":52.249299999999998,
+            "lon":5.6033999999999997,
+            "place_name":"Netherlands"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":53.916699999999999,
+            "lon":-0.5,
+            "place_name":"East Yorkshire, England, United Kingdom"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":69.338700000000003,
+            "lon":17.105499999999999,
+            "place_name":"Torsken, Troms, Norway"
+        },
+        {  
+            "label":"Ebola, HIV/AIDS, Plague",
+            "lat":61.946100000000001,
+            "lon":93.577699999999993,
+            "place_name":"Russia"
+        },
+        {  
+            "label":"Anthrax, Bluetongue",
+            "lat":45.75,
+            "lon":16.411799999999999,
+            "place_name":"Croatia"
+        },
+        {  
+            "label":"BSE, Brucellosis",
+            "lat":39.600999999999999,
+            "lon":-8.0626999999999995,
+            "place_name":"Portugal"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":38.433399999999999,
+            "lon":-91.066800000000001,
+            "place_name":"Franklin County, Missouri, United States"
+        },
+        {  
+            "label":"Gonorrhea, HIV/AIDS, Syphilis",
+            "lat":48.690899999999999,
+            "lon":-55.986400000000003,
+            "place_name":"Newfoundland, Newfoundland and Labrador, Canada"
+        },
+        {  
+            "label":"Dysentery, HIV/AIDS, Hepatitis B, Hepatitis C, Syphilis, Tuberculosis",
+            "lat":35.995699999999999,
+            "lon":119.0039,
+            "place_name":"Shandong Province, China"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":15.7021,
+            "lon":-90.356200000000001,
+            "place_name":"Guatemala"
+        },
+        {  
+            "label":"Ebola, Lassa Fever",
+            "lat":9.6472999999999995,
+            "lon":2.3431000000000002,
+            "place_name":"Benin"
+        },
+        {  
+            "label":"Nipah/Hendra Virus",
+            "lat":6.5068999999999999,
+            "lon":124.4198,
+            "place_name":"Sultan Kudarat, Philippines"
+        },
+        {  
+            "label":"E. coli",
+            "lat":50.75,
+            "lon":-2.3332999999999999,
+            "place_name":"Dorset, England, United Kingdom"
+        },
+        {  
+            "label":"Hepatitis A",
+            "lat":50.809100000000001,
+            "lon":-1.0713999999999999,
+            "place_name":"Portsmouth, England, United Kingdom"
+        },
+        {  
+            "label":"Rabies",
+            "lat":40.869,
+            "lon":-74.208200000000005,
+            "place_name":"Little Falls, New Jersey, United States"
+        },
+        {  
+            "label":"Avian Influenza H5N8, Campylobacter, E. coli, Ebola",
+            "lat":54.469999999999999,
+            "lon":-2.0215000000000001,
+            "place_name":"United Kingdom"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N1, E. coli, Swine Flu H1N1",
+            "lat":26.494199999999999,
+            "lon":29.872,
+            "place_name":"Egypt"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-17.811499999999999,
+            "lon":-149.4581,
+            "place_name":"Pays d'outre-mer de French Polynesia, France"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":44.683300000000003,
+            "lon":-85.466700000000003,
+            "place_name":"Grand Traverse County, Michigan, United States"
+        },
+        {  
+            "label":"Avian Influenza, Influenza",
+            "lat":36.098500000000001,
+            "lon":138.4786,
+            "place_name":"Japan"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":69.25,
+            "lon":19.666699999999999,
+            "place_name":"Troms, Norway"
+        },
+        {  
+            "label":"Ebola",
+            "lat":46.564500000000002,
+            "lon":2.552,
+            "place_name":"France"
+        },
+        {  
+            "label":"Cholera",
+            "lat":18.941600000000001,
+            "lon":-72.679500000000004,
+            "place_name":"Haiti"
+        },
+        {  
+            "label":"Foot and Mouth, Vancomycin Resistant Enterococci (VRE)",
+            "lat":34.110900000000001,
+            "lon":9.5612999999999992,
+            "place_name":"Tunisia"
+        },
+        {  
+            "label":"Poisoning",
+            "lat":10.1782,
+            "lon":-69.343599999999995,
+            "place_name":"Penitenciaria Centro Occidental Uribana, Venezuela"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N1, Crimean-Congo Hemorrhagic Fever, Encephalitis, Tuberculosis",
+            "lat":22.883500000000002,
+            "lon":79.616200000000006,
+            "place_name":"India"
+        },
+        {  
+            "label":"Ebola, HIV/AIDS, Influenza, Poisoning, Vaccine Complication",
+            "lat":42.7958,
+            "lon":12.0717,
+            "place_name":"Italy"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":53.128100000000003,
+            "lon":-1.2426999999999999,
+            "place_name":"Kings Mill Hospital, Nottinghamshire,  UK"
+        },
+        {  
+            "label":"Ebola, HIV/AIDS",
+            "lat":40.226799999999997,
+            "lon":-3.6496,
+            "place_name":"Spain"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":56.511000000000003,
+            "lon":84.946200000000005,
+            "place_name":"Tomsk"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":-33.8705,
+            "lon":151.2158,
+            "place_name":"Sydney, New South Wales, Australia"
+        },
+        {  
+            "label":"Measles",
+            "lat":46.123600000000003,
+            "lon":14.826499999999999,
+            "place_name":"Slovenia"
+        },
+        {  
+            "label":"Pests",
+            "lat":-21.25,
+            "lon":118.3,
+            "place_name":"Pilbara, Western Australia, Australia"
+        },
+        {  
+            "label":"Foodborne Illness",
+            "lat":20.657399999999999,
+            "lon":85.596900000000005,
+            "place_name":"Dhenkanal, Orissa, India"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":31.9894,
+            "lon":116.9824,
+            "place_name":"Anhui Province, China"
+        },
+        {  
+            "label":"Chikungunya, E. coli, Ebola, Enterovirus 68, Influenza, Not Yet Classified, Salmonella, Trypanosomiasis, Tuberculosis",
+            "lat":39.966900000000003,
+            "lon":-97.556100000000001,
+            "place_name":"United States"
+        },
+        {  
+            "label":"Chicken Pox",
+            "lat":31.279399999999999,
+            "lon":32.240000000000002,
+            "place_name":"Port Said Governorate, Egypt"
+        },
+        {  
+            "label":"Plague",
+            "lat":-19.3734,
+            "lon":46.706000000000003,
+            "place_name":"Madagascar"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.2866,
+            "lon":-81.374399999999994,
+            "place_name":"George Town, Cayman Islands"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.366700000000002,
+            "lon":-81.416700000000006,
+            "place_name":"West Bay, Cayman Islands"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.276499999999999,
+            "lon":-81.254199999999997,
+            "place_name":"Bodden Town, Cayman Islands"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.716699999999999,
+            "lon":-79.816699999999997,
+            "place_name":"Cayman Brac, Cayman Islands"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.683299999999999,
+            "lon":-80.049999999999997,
+            "place_name":"Little Cayman, Cayman Islands"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.350000000000001,
+            "lon":-81.200000000000003,
+            "place_name":"North Side, Cayman Islands"
+        },
+        {  
+            "label":"Avian Influenza, Scrub Typhus",
+            "lat":15.127000000000001,
+            "lon":101.01739999999999,
+            "place_name":"Thailand"
+        },
+        {  
+            "label":"Animal Die-off",
+            "lat":-9.3251000000000008,
+            "lon":-77.561899999999994,
+            "place_name":"Ancash Region, Peru"
+        },
+        {  
+            "label":"Acinetobacter baumannii",
+            "lat":54.588799999999999,
+            "lon":-5.9687999999999999,
+            "place_name":"Royal Victoria Hospital, Belfast, Northern Ireland, UK"
+        },
+        {  
+            "label":"Other Plant Disease",
+            "lat":-42.000399999999999,
+            "lon":146.99700000000001,
+            "place_name":"Tasmania, Australia"
+        },
+        {  
+            "label":"Equine Influenza",
+            "lat":55.583300000000001,
+            "lon":-2.8332999999999999,
+            "place_name":"Scottish Borders, Scotland, United Kingdom"
+        },
+        {  
+            "label":"Dengue",
+            "lat":29.3247,
+            "lon":-110.6763,
+            "place_name":"Estado de Sonora, Mexico"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":-36.949199999999998,
+            "lon":174.9144,
+            "place_name":"Willowbank School, Howick, Dannemora, New Zealand"
+        },
+        {  
+            "label":"Influenza",
+            "lat":43.466799999999999,
+            "lon":-80.516400000000004,
+            "place_name":"Waterloo, Ontario, Canada"
+        },
+        {  
+            "label":"Chikungunya, Dengue",
+            "lat":16.509799999999998,
+            "lon":-92.504900000000006,
+            "place_name":"Estado de Chiapas, Mexico"
+        },
+        {  
+            "label":"Ebola",
+            "lat":52.433300000000003,
+            "lon":-3.1166999999999998,
+            "place_name":"Newcastle, England, United Kingdom"
+        },
+        {  
+            "label":"Dengue",
+            "lat":18.975000000000001,
+            "lon":72.825800000000001,
+            "place_name":"Mumbai, Maharashtra, India"
+        },
+        {  
+            "label":"Influenza",
+            "lat":42.350000000000001,
+            "lon":-89.183400000000006,
+            "place_name":"Winnebago County, Illinois, United States"
+        },
+        {  
+            "label":"Enterovirus 68, Not Yet Classified",
+            "lat":60.716099999999997,
+            "lon":8.7451000000000008,
+            "place_name":"Norway"
+        },
+        {  
+            "label":"Crimean-Congo Hemorrhagic Fever, Ebola, Polio",
+            "lat":29.966999999999999,
+            "lon":69.385999999999996,
+            "place_name":"Pakistan"
+        },
+        {  
+            "label":"Hepatitis",
+            "lat":23.031700000000001,
+            "lon":72.6113,
+            "place_name":"Saraspur, Ahmedabad, Gujarat, India"
+        },
+        {  
+            "label":"Dengue, Malaria",
+            "lat":14.465,
+            "lon":78.822199999999995,
+            "place_name":"Kadapa District, Andhra Pradesh, India"
+        },
+        {  
+            "label":"Bronchitis/Bronchiolitis, Influenza",
+            "lat":37.2667,
+            "lon":-93.350200000000001,
+            "place_name":"Greene County, Missouri, United States"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-15.667,
+            "lon":-64.332999999999998,
+            "place_name":"Provincia Marbán, El Beni, Bolivia"
+        },
+        {  
+            "label":"Meningitis",
+            "lat":-27,
+            "lon":-65.5,
+            "place_name":"Provincia de Tucumán, Argentina"
+        },
+        {  
+            "label":"Measles, Polio",
+            "lat":28.4785,
+            "lon":65.643500000000003,
+            "place_name":"Balochistan, Pakistan"
+        },
+        {  
+            "label":"Malaria",
+            "lat":5.3486000000000002,
+            "lon":117.13120000000001,
+            "place_name":"Sabah, Malaysia"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":7.5833000000000004,
+            "lon":-80.333299999999994,
+            "place_name":"Provincia de Los Santos, Panama"
+        },
+        {  
+            "label":"Dengue",
+            "lat":1.2916000000000001,
+            "lon":103.8081,
+            "place_name":"Singapore"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.5,
+            "lon":-10.5,
+            "place_name":"Montserrado County, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.2675000000000001,
+            "lon":-10.709099999999999,
+            "place_name":"Paynesville Zone District, Monrovia, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.3106,
+            "lon":-10.8047,
+            "place_name":"Monrovia, Montserrado, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":5.8807999999999998,
+            "lon":-10.0467,
+            "place_name":"Buchanan, Grand Bassa, Liberia"
+        },
+        {  
+            "label":"Diarrhea",
+            "lat":30.236599999999999,
+            "lon":-93.377399999999994,
+            "place_name":"Sulphur, Louisiana, United States"
+        },
+        {  
+            "label":"Poisoning",
+            "lat":29.466699999999999,
+            "lon":77.683300000000003,
+            "place_name":"Muzaffarnagar, Uttar Pradesh, India"
+        },
+        {  
+            "label":"West Nile Virus",
+            "lat":34.0334,
+            "lon":-106.8839,
+            "place_name":"Socorro County, New Mexico, United States"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-20.751100000000001,
+            "lon":-51.6783,
+            "place_name":"Três Lagoas, Mato Grosso do Sul, Brazil"
+        },
+        {  
+            "label":"Influenza",
+            "lat":39.4574,
+            "lon":140.47669999999999,
+            "place_name":"Daisen, Akita, Japan"
+        },
+        {  
+            "label":"Meningitis",
+            "lat":53.391399999999997,
+            "lon":-2.8910999999999998,
+            "place_name":"Liverpool Hope University, Liverpool, Merseyside, UK"
+        },
+        {  
+            "label":"Avian Influenza, Pneumonia",
+            "lat":36.615499999999997,
+            "lon":127.727,
+            "place_name":"South Korea"
+        },
+        {  
+            "label":"Avian Influenza, Foot and Mouth, HIV/AIDS, Rabies",
+            "lat":-28.9985,
+            "lon":25.092500000000001,
+            "place_name":"South Africa"
+        },
+        {  
+            "label":"Swine Flu H1N1",
+            "lat":-20.432300000000001,
+            "lon":-51.348799999999997,
+            "place_name":"Ilha Solteira, Sao Paulo, Brazil"
+        },
+        {  
+            "label":"Not Yet Classified",
+            "lat":56.5,
+            "lon":-4,
+            "place_name":"Scotland, United Kingdom"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7,
+            "lon":-9.6667000000000005,
+            "place_name":"Bong County, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.9261999999999997,
+            "lon":-9.6255000000000006,
+            "place_name":"Suakoko District, Bong, Liberia"
+        },
+        {  
+            "label":"Bluetongue",
+            "lat":45.843600000000002,
+            "lon":24.9693,
+            "place_name":"Romania"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":-25.734999999999999,
+            "lon":134.4896,
+            "place_name":"Australia"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N1",
+            "lat":9.9903999999999993,
+            "lon":76.508700000000005,
+            "place_name":"Kerala State, India"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":53,
+            "lon":-2.1833,
+            "place_name":"Stoke-on-Trent, England, United Kingdom"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":35,
+            "lon":135,
+            "place_name":"Hyogo Prefecture, Japan"
+        },
+        {  
+            "label":"Ebola",
+            "lat":51.069000000000003,
+            "lon":-73.256900000000002,
+            "place_name":"Quebec Province, Canada"
+        },
+        {  
+            "label":"Rabies",
+            "lat":34.616799999999998,
+            "lon":-83.499899999999997,
+            "place_name":"Habersham County, Georgia, United States"
+        },
+        {  
+            "label":"Hantavirus, Influenza",
+            "lat":54.0077,
+            "lon":55.9863,
+            "place_name":"Bashkortostan Republic"
+        },
+        {  
+            "label":"Brucellosis",
+            "lat":41.161799999999999,
+            "lon":-8.0355000000000008,
+            "place_name":"Baiao, Porto, Portugal"
+        },
+        {  
+            "label":"Lyme Disease, Pests",
+            "lat":43.707500000000003,
+            "lon":-79.409199999999998,
+            "place_name":"Toronto, Ontario, Canada"
+        },
+        {  
+            "label":"Influenza",
+            "lat":30.7835,
+            "lon":-88.200000000000003,
+            "place_name":"Mobile County, Alabama, United States"
+        },
+        {  
+            "label":"Bacterial Meningitis",
+            "lat":40.877099999999999,
+            "lon":-124.077,
+            "place_name":"Humboldt State University, California, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":41.892899999999997,
+            "lon":12.4825,
+            "place_name":"Rome, Italy"
+        },
+        {  
+            "label":"Other Plant Disease",
+            "lat":72,
+            "lon":-40,
+            "place_name":"Greenland [Denmark]"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":8.5071999999999992,
+            "lon":-80.102699999999999,
+            "place_name":"Panama"
+        },
+        {  
+            "label":"E. coli, Scarlet Fever",
+            "lat":53.034599999999998,
+            "lon":-0.56040000000000001,
+            "place_name":"England, United Kingdom"
+        },
+        {  
+            "label":"Influenza",
+            "lat":44.127699999999997,
+            "lon":-116.8788,
+            "place_name":"Payette County, Idaho, United States"
+        },
+        {  
+            "label":"Dengue, Typhoid",
+            "lat":23.033300000000001,
+            "lon":72.616699999999994,
+            "place_name":"Ahmedabad, Gujarat, India"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":35.216799999999999,
+            "lon":-82.783199999999994,
+            "place_name":"Transylvania County, North Carolina, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.6666999999999996,
+            "lon":-10.833299999999999,
+            "place_name":"Bomi County, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.8666999999999998,
+            "lon":-10.816700000000001,
+            "place_name":"Tubmanburg, Liberia"
+        },
+        {  
+            "label":"Undiagnosed",
+            "lat":-33,
+            "lon":146,
+            "place_name":"New South Wales, Australia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.484,
+            "lon":-13.229900000000001,
+            "place_name":"Freetown, Western Area, Sierra Leone"
+        },
+        {  
+            "label":"Animal Die-off",
+            "lat":45.523499999999999,
+            "lon":-122.67619999999999,
+            "place_name":"Portland, Oregon, United States"
+        },
+        {  
+            "label":"Hospital-Related Infection",
+            "lat":-33.366700000000002,
+            "lon":-70.5167,
+            "place_name":"Las Condes, Metropolitana de Santiago, Chile"
+        },
+        {  
+            "label":"Other Plant Disease",
+            "lat":-0.66669999999999996,
+            "lon":-80.083299999999994,
+            "place_name":"Provincia de Manabí, Ecuador"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":38.090899999999998,
+            "lon":-88.158699999999996,
+            "place_name":"Carmi, Illinois, United States"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":33.508699999999997,
+            "lon":-96.612200000000001,
+            "place_name":"Howe, Texas, United States"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-21,
+            "lon":-55,
+            "place_name":"Mato Grosso do Sul, Brazil"
+        },
+        {  
+            "label":"E. coli",
+            "lat":50.863500000000002,
+            "lon":-2.1410999999999998,
+            "place_name":"Blandford Children’s Centre, Blandford Forum, Dorset, UK"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":27.332699999999999,
+            "lon":-101.9971,
+            "place_name":"Estado de Coahuila, Mexico"
+        },
+        {  
+            "label":"Dengue",
+            "lat":19.034800000000001,
+            "lon":73.034000000000006,
+            "place_name":"Navi Mumbai, Maharashtra, India"
+        },
+        {  
+            "label":"African Swine Fever",
+            "lat":53.539999999999999,
+            "lon":28.046800000000001,
+            "place_name":"Belarus"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.496400000000001,
+            "lon":-97.514700000000005,
+            "place_name":"Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.883899999999997,
+            "lon":-94.658699999999996,
+            "place_name":"Adair County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.5501,
+            "lon":-97.400300000000001,
+            "place_name":"Oklahoma County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":36.100099999999998,
+            "lon":-95.900300000000001,
+            "place_name":"Tulsa County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.875300000000003,
+            "lon":-98.433499999999995,
+            "place_name":"Blaine County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.6389,
+            "lon":-99.001499999999993,
+            "place_name":"Custer County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":34.935699999999997,
+            "lon":-99.5608,
+            "place_name":"Greer County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":34.116799999999998,
+            "lon":-97.816999999999993,
+            "place_name":"Jefferson County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":35.703000000000003,
+            "lon":-96.880899999999997,
+            "place_name":"Lincoln County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":34.016800000000003,
+            "lon":-96.766999999999996,
+            "place_name":"Marshall County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":36.301900000000003,
+            "lon":-95.230900000000005,
+            "place_name":"Mayes County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":36.066699999999997,
+            "lon":-96.966999999999999,
+            "place_name":"Payne County, Oklahoma, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":34.466799999999999,
+            "lon":-97.850300000000004,
+            "place_name":"Stephens County, Oklahoma, United States"
+        },
+        {  
+            "label":"Legionnaires'",
+            "lat":38.683999999999997,
+            "lon":-0.51900000000000002,
+            "place_name":"Alcoy/Alcoi, Valencia, Spain"
+        },
+        {  
+            "label":"Ebola",
+            "lat":31.719999999999999,
+            "lon":72.978899999999996,
+            "place_name":"Chiniot, Punjab, Pakistan"
+        },
+        {  
+            "label":"Dengue, Rubella",
+            "lat":23.873000000000001,
+            "lon":121.017,
+            "place_name":"Taiwan"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":38.367400000000004,
+            "lon":-97.656800000000004,
+            "place_name":"McPherson Middle School, McPherson, Kansas, United States"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":38.370600000000003,
+            "lon":-97.655000000000001,
+            "place_name":"Washington Elementary School, McPherson, Kansas, United States"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":50.994799999999998,
+            "lon":-1.4857,
+            "place_name":"Romsey Primary School, Hampshire, UK"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":38.497599999999998,
+            "lon":-91.045699999999997,
+            "place_name":"Krakow, Missouri, United States"
+        },
+        {  
+            "label":"Mumps",
+            "lat":47.1252,
+            "lon":-117.0013,
+            "place_name":"Latah County, Idaho, United States"
+        },
+        {  
+            "label":"Pests",
+            "lat":-27.251999999999999,
+            "lon":152.9923,
+            "place_name":"Kallangur, Queensland, Australia"
+        },
+        {  
+            "label":"Pests",
+            "lat":-27.2667,
+            "lon":152.98330000000001,
+            "place_name":"Petrie, Queensland, Australia"
+        },
+        {  
+            "label":"Pests",
+            "lat":-27.267299999999999,
+            "lon":153.01050000000001,
+            "place_name":"Murrumba Downs, Queensland, Australia"
+        },
+        {  
+            "label":"Influenza",
+            "lat":28.458600000000001,
+            "lon":-81.291499999999999,
+            "place_name":"Orange County, Florida, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":28.292000000000002,
+            "lon":-82.416499999999999,
+            "place_name":"Pasco County, Florida, United States"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":55.469999999999999,
+            "lon":-4.6101999999999999,
+            "place_name":"Braehead Primary School, South Ayrshire, Scotland, UK"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":37.649000000000001,
+            "lon":-78.354500000000002,
+            "place_name":"Virginia, United States"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":38.993499999999997,
+            "lon":-75.498099999999994,
+            "place_name":"Delaware, United States"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":38.959400000000002,
+            "lon":-76.376999999999995,
+            "place_name":"Maryland, United States"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":38.895000000000003,
+            "lon":-77.036699999999996,
+            "place_name":"Washington, DC, United States"
+        },
+        {  
+            "label":"Pneumonia",
+            "lat":22.283999999999999,
+            "lon":114.15000000000001,
+            "place_name":"Hong Kong"
+        },
+        {  
+            "label":"Rabies",
+            "lat":40.075099999999999,
+            "lon":-74.099599999999995,
+            "place_name":"Brick Township, New Jersey, United States"
+        },
+        {  
+            "label":"Polio",
+            "lat":34.935099999999998,
+            "lon":72.468000000000004,
+            "place_name":"Khwazakhela, Khyber Pakhtunkhwa, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":35.241599999999998,
+            "lon":72.499300000000005,
+            "place_name":"Swat, North West Frontier Province, Pakistan"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":-0.70169999999999999,
+            "lon":36.445999999999998,
+            "place_name":"G K Maximum Prison, Naivasha, Kenya"
+        },
+        {  
+            "label":"Crimean-Congo Hemorrhagic Fever",
+            "lat":22.998799999999999,
+            "lon":72.004300000000001,
+            "place_name":"Gujarat State, India"
+        },
+        {  
+            "label":"Lassa Fever",
+            "lat":11.036199999999999,
+            "lon":1.4176,
+            "place_name":"Tanguieta, Atakora, Benin"
+        },
+        {  
+            "label":"Foot and Mouth",
+            "lat":33.385599999999997,
+            "lon":120.1253,
+            "place_name":"Yancheng, Jiangsu, China"
+        },
+        {  
+            "label":"Polio",
+            "lat":49.017099999999999,
+            "lon":31.3871,
+            "place_name":"Ukraine"
+        },
+        {  
+            "label":"Foodborne Illness",
+            "lat":58.961300000000001,
+            "lon":56.557600000000001,
+            "place_name":"Perm Krai"
+        },
+        {  
+            "label":"Animal Die-off",
+            "lat":20.7502,
+            "lon":-156.50030000000001,
+            "place_name":"Hawaii, United States"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":33.616799999999998,
+            "lon":-96.683599999999998,
+            "place_name":"Grayson County, Texas, United States"
+        },
+        {  
+            "label":"Feline panleukopenia virus",
+            "lat":38.254399999999997,
+            "lon":-104.6091,
+            "place_name":"Pueblo, Colorado, United States"
+        },
+        {  
+            "label":"Swine Flu H1N1",
+            "lat":41.482799999999997,
+            "lon":-87.332800000000006,
+            "place_name":"Merrillville, Indiana, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":9.1166999999999998,
+            "lon":-12.916700000000001,
+            "place_name":"Kambia, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":9.5333000000000006,
+            "lon":-11.3667,
+            "place_name":"Koinadugu, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":9.3332999999999995,
+            "lon":-12.25,
+            "place_name":"Bombali District, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8,
+            "lon":-11.666700000000001,
+            "place_name":"Bo District, Southern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7.5,
+            "lon":-12.5,
+            "place_name":"Bonthe District, Southern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.2833000000000006,
+            "lon":-10.566700000000001,
+            "place_name":"Kailahun, Eastern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7.8766999999999996,
+            "lon":-11.1875,
+            "place_name":"Kenema, Eastern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.75,
+            "lon":-11,
+            "place_name":"Kono District, Eastern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7.3333000000000004,
+            "lon":-11.5,
+            "place_name":"Pujehun District, Southern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8,
+            "lon":-12.5,
+            "place_name":"Moyamba District, Southern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.7667000000000002,
+            "lon":-12.783300000000001,
+            "place_name":"Port Loko, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.3332999999999995,
+            "lon":-13,
+            "place_name":"Western Area, Sierra Leone"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.6667000000000005,
+            "lon":-11.666700000000001,
+            "place_name":"Tonkolili District, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Foodborne Illness",
+            "lat":54.6738,
+            "lon":-124.9366,
+            "place_name":"British Columbia Province, Canada"
+        },
+        {  
+            "label":"Not Yet Classified",
+            "lat":52.124600000000001,
+            "lon":19.4009,
+            "place_name":"Poland"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":42.399099999999997,
+            "lon":-71.795699999999997,
+            "place_name":"Massachusetts, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":41.672899999999998,
+            "lon":-72.685599999999994,
+            "place_name":"Connecticut, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":45.490900000000003,
+            "lon":-69.257900000000006,
+            "place_name":"Maine, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":47.010199999999998,
+            "lon":-109.7315,
+            "place_name":"Montana, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":40.245899999999999,
+            "lon":-83.012699999999995,
+            "place_name":"Ohio, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":40.930100000000003,
+            "lon":-77.4756,
+            "place_name":"Pennsylvania, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":44.040199999999999,
+            "lon":-72.751499999999993,
+            "place_name":"Vermont, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":43.004600000000003,
+            "lon":-75.498099999999994,
+            "place_name":"New York State, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":43.675800000000002,
+            "lon":-71.499099999999999,
+            "place_name":"New Hampshire, United States"
+        },
+        {  
+            "label":"Salmonella",
+            "lat":41.738500000000002,
+            "lon":-71.499099999999999,
+            "place_name":"Rhode Island, United States"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N1",
+            "lat":9.4832999999999998,
+            "lon":76.316699999999997,
+            "place_name":"Alappuzha, Kerala, India"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-4,
+            "lon":-53,
+            "place_name":"Pará, Brazil"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-27.116700000000002,
+            "lon":-109.36669999999999,
+            "place_name":"Easter Island [Chile]"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-17.616700000000002,
+            "lon":-149.44999999999999,
+            "place_name":"Tahiti, French Polynesia"
+        },
+        {  
+            "label":"Dengue",
+            "lat":16.695599999999999,
+            "lon":74.231700000000004,
+            "place_name":"Kolhapur, Maharashtra, India"
+        },
+        {  
+            "label":"Dengue",
+            "lat":18.520399999999999,
+            "lon":73.856700000000004,
+            "place_name":"Pune, Maharashtra, India"
+        },
+        {  
+            "label":"Influenza",
+            "lat":46.195,
+            "lon":-63.105499999999999,
+            "place_name":"Prince Edward Island Province, Canada"
+        },
+        {  
+            "label":"Influenza",
+            "lat":34.324199999999998,
+            "lon":135.6104,
+            "place_name":"Hashimoto, Wakayama, Japan"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":45.744900000000001,
+            "lon":-64.732100000000003,
+            "place_name":"Riverside-Albert, New Brunswick, Canada"
+        },
+        {  
+            "label":"Meningitis - Neisseria",
+            "lat":32.5642,
+            "lon":-117.0183,
+            "place_name":"San Ysidro High School, San Diego, California, United States"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":-37.8568,
+            "lon":145.23070000000001,
+            "place_name":"Wantirna College, Wantirna, Victoria, Australia"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":-37.956800000000001,
+            "lon":145.16069999999999,
+            "place_name":"Sandown Park Greyhound Track, Springvale, Visctoria, Australia"
+        },
+        {  
+            "label":"Avian Influenza",
+            "lat":35.672899999999998,
+            "lon":139.81739999999999,
+            "place_name":"Koto Ward, Tokyo, Japan"
+        },
+        {  
+            "label":"Dengue",
+            "lat":21.5169,
+            "lon":39.219200000000001,
+            "place_name":"Jeddah, Makkah, Saudi Arabia"
+        },
+        {  
+            "label":"Dengue, Malaria",
+            "lat":2.5746000000000002,
+            "lon":113.1918,
+            "place_name":"Malaysia"
+        },
+        {  
+            "label":"Influenza",
+            "lat":62.789900000000003,
+            "lon":16.739799999999999,
+            "place_name":"Sweden"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":-39.824300000000001,
+            "lon":-73.213300000000004,
+            "place_name":"Valdivia, Los Ríos, Chile"
+        },
+        {  
+            "label":"Chicken Pox",
+            "lat":-16.5,
+            "lon":27,
+            "place_name":"Southern Province, Zambia"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":38.917099999999998,
+            "lon":-77.000299999999996,
+            "place_name":"Washington, D.C., United States"
+        },
+        {  
+            "label":"Listeriosis, Salmonella",
+            "lat":47.487499999999997,
+            "lon":-120.49809999999999,
+            "place_name":"Washington State, United States"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":-27.648499999999999,
+            "lon":152.77379999999999,
+            "place_name":"Nowlanvil Aged Care Facility,, Flinders View, Queensland, Australia"
+        },
+        {  
+            "label":"Influenza",
+            "lat":64.000200000000007,
+            "lon":-150.00030000000001,
+            "place_name":"Alaska, United States"
+        },
+        {  
+            "label":"Scrub Typhus",
+            "lat":19.333300000000001,
+            "lon":104.83329999999999,
+            "place_name":"Nghệ An Province, Vietnam"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":19.331800000000001,
+            "lon":-96.657799999999995,
+            "place_name":"Estado de Veracruz, Mexico"
+        },
+        {  
+            "label":"Influenza",
+            "lat":41.833399999999997,
+            "lon":-87.850099999999998,
+            "place_name":"Cook County, Illinois, United States"
+        },
+        {  
+            "label":"Avian Influenza",
+            "lat":13.5,
+            "lon":76,
+            "place_name":"Karnataka State, India"
+        },
+        {  
+            "label":"Ebola",
+            "lat":5.8098999999999998,
+            "lon":-9.4290000000000003,
+            "place_name":"Rivercess County, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.25,
+            "lon":-9.75,
+            "place_name":"Grand Bassa County, Liberia"
+        },
+        {  
+            "label":"Meningitis",
+            "lat":-25.5167,
+            "lon":-54.616700000000002,
+            "place_name":"Ciudad del Este, Alto Paraná, Paraguay"
+        },
+        {  
+            "label":"Enterovirus 68",
+            "lat":55.429000000000002,
+            "lon":-101.8653,
+            "place_name":"Canada"
+        },
+        {  
+            "label":"Syphilis",
+            "lat":49.884300000000003,
+            "lon":-97.147099999999995,
+            "place_name":"Winnipeg, Manitoba, Canada"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":37.166699999999999,
+            "lon":-2.3332999999999999,
+            "place_name":"Almeria, Andalusia, Spain"
+        },
+        {  
+            "label":"Eastern Equine Encephalitis",
+            "lat":43.000599999999999,
+            "lon":-76.166300000000007,
+            "place_name":"Onondaga County, New York, United States"
+        },
+        {  
+            "label":"Tick-borne disease",
+            "lat":-43,
+            "lon":171,
+            "place_name":"South Island, New Zealand"
+        },
+        {  
+            "label":"Crimean-Congo Hemorrhagic Fever",
+            "lat":25.525300000000001,
+            "lon":69.001199999999997,
+            "place_name":"Tharpārkar, Sindh, Pakistan"
+        },
+        {  
+            "label":"Ebola",
+            "lat":0.56940000000000002,
+            "lon":18.807600000000001,
+            "place_name":"Province de l'Équateur, DR Congo"
+        },
+        {  
+            "label":"Chikungunya, Dengue",
+            "lat":-20.442799999999998,
+            "lon":-54.6464,
+            "place_name":"Campo Grande, Mato Grosso do Sul, Brazil"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.5350000000000001,
+            "lon":0.97570000000000001,
+            "place_name":"Togo"
+        },
+        {  
+            "label":"Ebola",
+            "lat":31.416699999999999,
+            "lon":73.083299999999994,
+            "place_name":"Faisalabad, Punjab, Pakistan"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.7732999999999999,
+            "lon":-11.048299999999999,
+            "place_name":"Sinje, Grand Cape Mount, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7.1666999999999996,
+            "lon":-11,
+            "place_name":"Grand Cape Mount County, Liberia"
+        },
+        {  
+            "label":"African Swine Fever",
+            "lat":55.881399999999999,
+            "lon":26.538900000000002,
+            "place_name":"Daugavpils, Latvia"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":52.5,
+            "lon":-3.5,
+            "place_name":"Wales, United Kingdom"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.4900000000000002,
+            "lon":-13.2342,
+            "place_name":"Freetown, Western Area, Sierra Leone"
+        },
+        {  
+            "label":"Influenza",
+            "lat":52.116799999999998,
+            "lon":-106.6345,
+            "place_name":"Saskatoon, Saskatchewan, Canada"
+        },
+        {  
+            "label":"Not Yet Classified",
+            "lat":56.511000000000003,
+            "lon":47.988199999999999,
+            "place_name":"Mariy-El Republic"
+        },
+        {  
+            "label":"African Swine Fever",
+            "lat":57.775199999999998,
+            "lon":26.010100000000001,
+            "place_name":"Valkas, Latvia"
+        },
+        {  
+            "label":"African Swine Fever",
+            "lat":57.5411,
+            "lon":25.427499999999998,
+            "place_name":"Valmiera, Valmieras Rajons, Latvia"
+        },
+        {  
+            "label":"Tuberculosis",
+            "lat":53.583300000000001,
+            "lon":-2.4333,
+            "place_name":"Bolton, England, United Kingdom"
+        },
+        {  
+            "label":"Newcastle Disease",
+            "lat":32.833300000000001,
+            "lon":35.333300000000001,
+            "place_name":"Northern District, Israel"
+        },
+        {  
+            "label":"Dengue",
+            "lat":5.3333000000000004,
+            "lon":115.2,
+            "place_name":"Labuan, Malaysia"
+        },
+        {  
+            "label":"MERS",
+            "lat":21.9023,
+            "lon":41.242699999999999,
+            "place_name":"Makkah Province, Saudi Arabia"
+        },
+        {  
+            "label":"Respiratory Illness",
+            "lat":49.916800000000002,
+            "lon":-109.48480000000001,
+            "place_name":"Maple Creek, Saskatchewan, Canada"
+        },
+        {  
+            "label":"Influenza",
+            "lat":31.5502,
+            "lon":-97.183599999999998,
+            "place_name":"McLennan County, Texas, United States"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":27.994399999999999,
+            "lon":112.0166,
+            "place_name":"Hunan Province, China"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":15,
+            "lon":-89.5,
+            "place_name":"Departamento de Zacapa, Guatemala"
+        },
+        {  
+            "label":"Vesicular Stomatitis",
+            "lat":41.9148,
+            "lon":-98.528199999999998,
+            "place_name":"Wheeler County, Nebraska, United States"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":13.5,
+            "lon":-15.5,
+            "place_name":"Gambia"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-13.2158,
+            "lon":34.307200000000002,
+            "place_name":"Malawi"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-6,
+            "lon":35,
+            "place_name":"Tanzania"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-17.260100000000001,
+            "lon":35.552199999999999,
+            "place_name":"Mozambique"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-22.181999999999999,
+            "lon":23.815000000000001,
+            "place_name":"Botswana"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":8.6262000000000008,
+            "lon":39.616,
+            "place_name":"Ethiopia"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":0.52990000000000004,
+            "lon":37.857900000000001,
+            "place_name":"Kenya"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-19.0001,
+            "lon":29.8718,
+            "place_name":"Zimbabwe"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":1.28,
+            "lon":32.386200000000002,
+            "place_name":"Uganda"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-13.952999999999999,
+            "lon":27.798300000000001,
+            "place_name":"Zambia"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-1.9979,
+            "lon":29.9177,
+            "place_name":"Rwanda"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":-29.581,
+            "lon":28.242999999999999,
+            "place_name":"Lesotho"
+        },
+        {  
+            "label":"Whooping Cough",
+            "lat":45.061700000000002,
+            "lon":-83.4328,
+            "place_name":"Alpena, Michigan, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":43.000100000000003,
+            "lon":-79.249600000000001,
+            "place_name":"Niagara, Ontario, Canada"
+        },
+        {  
+            "label":"Chikungunya, Dengue, Ebola",
+            "lat":28.671299999999999,
+            "lon":77.2119,
+            "place_name":"National Capital Territory of Delhi, India"
+        },
+        {  
+            "label":"Dengue",
+            "lat":20.001000000000001,
+            "lon":73.781000000000006,
+            "place_name":"Nashik, Maharashtra, India"
+        },
+        {  
+            "label":"Environmental",
+            "lat":10.75,
+            "lon":106.66670000000001,
+            "place_name":"Hồ Chí Minh City, Vietnam"
+        },
+        {  
+            "label":"Other Plant Disease",
+            "lat":-20,
+            "lon":134,
+            "place_name":"Northern Territory, Australia"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":37.502699999999997,
+            "lon":-122.46939999999999,
+            "place_name":"El Granada, California, United States"
+        },
+        {  
+            "label":"Campylobacter, Crimean-Congo Hemorrhagic Fever, Foodborne Illness",
+            "lat":44.496499999999997,
+            "lon":-100.2393,
+            "place_name":"South Dakota, United States"
+        },
+        {  
+            "label":"Influenza",
+            "lat":25.2867,
+            "lon":51.533299999999997,
+            "place_name":"Doha, Ad Dawḩah, Qatar"
+        },
+        {  
+            "label":"CJD",
+            "lat":31.2409,
+            "lon":-99.2286,
+            "place_name":"Texas, United States"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-13.7584,
+            "lon":-172.15950000000001,
+            "place_name":"Samoa"
+        },
+        {  
+            "label":"Ebola",
+            "lat":-2,
+            "lon":25,
+            "place_name":"DR Congo"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":52.243400000000001,
+            "lon":6.5975000000000001,
+            "place_name":"Overijssel, Netherlands"
+        },
+        {  
+            "label":"Dengue",
+            "lat":25.833300000000001,
+            "lon":-111.8334,
+            "place_name":"Estado de Baja California Sur, Mexico"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":20.3858,
+            "lon":-72.334000000000003,
+            "place_name":"Caribbean"
+        },
+        {  
+            "label":"Influenza",
+            "lat":43.112200000000001,
+            "lon":-80.321299999999994,
+            "place_name":"Brant County, Ontario, Canada"
+        },
+        {  
+            "label":"Influenza",
+            "lat":43.133400000000002,
+            "lon":-80.266400000000004,
+            "place_name":"Brantford, Ontario, Canada"
+        },
+        {  
+            "label":"Syphilis",
+            "lat":39.916699999999999,
+            "lon":-83.766599999999997,
+            "place_name":"Clark County, Ohio, United States"
+        },
+        {  
+            "label":"Legionnaires'",
+            "lat":-36.850000000000001,
+            "lon":174.7833,
+            "place_name":"Auckland, New Zealand"
+        },
+        {  
+            "label":"Ebola",
+            "lat":12.65,
+            "lon":-8,
+            "place_name":"Bamako, Bamako, Mali"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":35.800899999999999,
+            "lon":-94.134900000000002,
+            "place_name":"Winslow, Arkansas, United States"
+        },
+        {  
+            "label":"HIV/AIDS",
+            "lat":36.7196,
+            "lon":-4.4199999999999999,
+            "place_name":"Malaga, Spain"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":38.993499999999997,
+            "lon":-105.5127,
+            "place_name":"Colorado, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":10.271000000000001,
+            "lon":-9.1780000000000008,
+            "place_name":"Kankan Prefecture, Kankan Region, Guinea"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.5667000000000009,
+            "lon":-10.1333,
+            "place_name":"Gueckedou, Guinea"
+        },
+        {  
+            "label":"Ebola",
+            "lat":8.8833000000000002,
+            "lon":-12.050000000000001,
+            "place_name":"Makeni, Northern Province, Sierra Leone"
+        },
+        {  
+            "label":"Avian Influenza",
+            "lat":9.3390000000000004,
+            "lon":76.411199999999994,
+            "place_name":"Kuttanad, Kerala, India"
+        },
+        {  
+            "label":"Vesicular Stomatitis",
+            "lat":41.508499999999998,
+            "lon":-99.755899999999997,
+            "place_name":"Nebraska, United States"
+        },
+        {  
+            "label":"Foodborne Illness",
+            "lat":16.1875,
+            "lon":81.138900000000007,
+            "place_name":"Machilipatnam, Andhra Pradesh, India"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":7.5407000000000002,
+            "lon":-80.611500000000007,
+            "place_name":"Azuero Peninsula, Panama"
+        },
+        {  
+            "label":"Meningitis",
+            "lat":43.464700000000001,
+            "lon":-3.8043999999999998,
+            "place_name":"Santander, Cantabria, Spain"
+        },
+        {  
+            "label":"Ebola",
+            "lat":6.8868999999999998,
+            "lon":-9.6771999999999991,
+            "place_name":"Gbatala, Bong, Liberia"
+        },
+        {  
+            "label":"Ebola",
+            "lat":7.0023999999999997,
+            "lon":-9.4727999999999994,
+            "place_name":"Gbarnga, Liberia"
+        },
+        {  
+            "label":"Bacterial Meningitis",
+            "lat":39.980899999999998,
+            "lon":-75.308499999999995,
+            "place_name":"Havertown, Pennsylvania, United States"
+        },
+        {  
+            "label":"Polio",
+            "lat":33.014499999999998,
+            "lon":69.999300000000005,
+            "place_name":"Federally Administered Tribal Areas, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":34.459899999999998,
+            "lon":72.502399999999994,
+            "place_name":"Khyber Pakhtunkhwa, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":26.112100000000002,
+            "lon":68.887900000000002,
+            "place_name":"Sindh, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":31,
+            "lon":72,
+            "place_name":"Punjab, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":35.222700000000003,
+            "lon":72.425799999999995,
+            "place_name":"Swat, Pakistan"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":46.75,
+            "lon":13.833299999999999,
+            "place_name":"Carinthia, Austria"
+        },
+        {  
+            "label":"Polio",
+            "lat":34.008000000000003,
+            "lon":71.578500000000005,
+            "place_name":"Peshawar, Khyber Pakhtunkhwa, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":32.950899999999997,
+            "lon":69.957599999999999,
+            "place_name":"North Waziristan, FATA, Pakistan"
+        },
+        {  
+            "label":"Diarrhea",
+            "lat":24.683299999999999,
+            "lon":88.25,
+            "place_name":"Chapai Nawābganj District, Rājshāhi, Bangladesh"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":21.447900000000001,
+            "lon":-158.1806,
+            "place_name":"Waianae, Hawaii, United States"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":56.396299999999997,
+            "lon":-3.4529999999999998,
+            "place_name":"Perth Royal Infirmary, Scotland, United Kingdom"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.5466,
+            "lon":-48.6325,
+            "place_name":"Barcarena, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.5824,
+            "lon":-49.987000000000002,
+            "place_name":"Curralinho, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.2488999999999999,
+            "lon":-49.316699999999997,
+            "place_name":"Muaná, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.7181,
+            "lon":-48.8825,
+            "place_name":"Abaetetuba, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.7163999999999999,
+            "lon":-49.531799999999997,
+            "place_name":"São Sebastião da Boa Vista, Para, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.1684000000000001,
+            "lon":-50.559699999999999,
+            "place_name":"Breves, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.8965000000000001,
+            "lon":-49.510199999999998,
+            "place_name":"Limoeiro do Ajuru, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-0.96809999999999996,
+            "lon":-46.733800000000002,
+            "place_name":"Bragança, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-2.2957999999999998,
+            "lon":-49.492100000000001,
+            "place_name":"Cametá, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-2.5871,
+            "lon":-49.040999999999997,
+            "place_name":"Moju, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.0529999999999999,
+            "lon":-49.154899999999998,
+            "place_name":"Ponta de Pedras, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.7705,
+            "lon":-47.421500000000002,
+            "place_name":"Irituia, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-2.1036000000000001,
+            "lon":-48.479900000000001,
+            "place_name":"Acará, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-0.72889999999999999,
+            "lon":-47.848100000000002,
+            "place_name":"Curuçá, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.3655999999999999,
+            "lon":-48.372199999999999,
+            "place_name":"Ananindeua, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-0.88780000000000003,
+            "lon":-47.363,
+            "place_name":"Santarém Novo, Pará, Brazil"
+        },
+        {  
+            "label":"Chagas",
+            "lat":-1.4558,
+            "lon":-48.504399999999997,
+            "place_name":"Belém, Pará, Brazil"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":36.838099999999997,
+            "lon":-2.4597000000000002,
+            "place_name":"Almería, Andalusia, Spain"
+        },
+        {  
+            "label":"Dengue",
+            "lat":27.2546,
+            "lon":80.749499999999998,
+            "place_name":"Uttar Pradesh State, India"
+        },
+        {  
+            "label":"Dengue",
+            "lat":28.9985,
+            "lon":76.003399999999999,
+            "place_name":"Haryana State, India"
+        },
+        {  
+            "label":"Avian Influenza",
+            "lat":9.2667000000000002,
+            "lon":76.783299999999997,
+            "place_name":"Pathanāmthitta, Kerala, India"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":15.3169,
+            "lon":-63.941699999999997,
+            "place_name":"Guadeloupe"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":14.6082,
+            "lon":-60.972499999999997,
+            "place_name":"Martinique"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":18.063600000000001,
+            "lon":-63.056100000000001,
+            "place_name":"Saint Martin [France/Netherlands]"
+        },
+        {  
+            "label":"Ebola",
+            "lat":41.258600000000001,
+            "lon":-95.937799999999996,
+            "place_name":"Omaha, Nebraska, United States"
+        },
+        {  
+            "label":"Avian Influenza",
+            "lat":48.691000000000003,
+            "lon":9.141,
+            "place_name":"Europe"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-20.819700000000001,
+            "lon":-49.379399999999997,
+            "place_name":"São José do Rio Preto, São Paulo, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-21.452100000000002,
+            "lon":-49.302599999999998,
+            "place_name":"Novo Horizonte, São Paulo, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-23.5489,
+            "lon":-46.934199999999997,
+            "place_name":"Itapevi, São Paulo, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-24.771599999999999,
+            "lon":-48.201099999999997,
+            "place_name":"Cajati, São Paulo, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-20.8416,
+            "lon":-49.508800000000001,
+            "place_name":"Mirassol, São Paulo, Brazil"
+        },
+        {  
+            "label":"Crimean-Congo Hemorrhagic Fever",
+            "lat":23.220500000000001,
+            "lon":73.217200000000005,
+            "place_name":"Bāyad, Gujarāt, India"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":56.8249,
+            "lon":44.648400000000002,
+            "place_name":"Nizhny Novgorod Oblast"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N8",
+            "lat":54.149999999999999,
+            "lon":11.75,
+            "place_name":"Mecklenburg-Vorpommern, Germany"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-23.5228,
+            "lon":-46.188299999999998,
+            "place_name":"Mogi das Cruzes, São Paulo, Brazil"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":-23.110600000000002,
+            "lon":-47.716799999999999,
+            "place_name":"Tietê, São Paulo, Brazil"
+        },
+        {  
+            "label":"Influenza",
+            "lat":42,
+            "lon":2,
+            "place_name":"Catalonia, Spain"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":32.2988,
+            "lon":-90.184799999999996,
+            "place_name":"Jackson, Mississippi, United States"
+        },
+        {  
+            "label":"Environmental, Other Animal Disease",
+            "lat":-9.1495999999999995,
+            "lon":-78.523799999999994,
+            "place_name":"Chimbote, Ancash, Peru"
+        },
+        {  
+            "label":"Chronic Wasting Disease",
+            "lat":43.004600000000003,
+            "lon":-107.4903,
+            "place_name":"Wyoming, United States"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":18.251300000000001,
+            "lon":-66.501400000000004,
+            "place_name":"Puerto Rico"
+        },
+        {  
+            "label":"Animal Die-off",
+            "lat":37.7333,
+            "lon":-123.03440000000001,
+            "place_name":"Farallon Islands, California, United States"
+        },
+        {  
+            "label":"E. coli, Measles",
+            "lat":46.2254,
+            "lon":-94.658299999999997,
+            "place_name":"Minnesota, United States"
+        },
+        {  
+            "label":"Measles",
+            "lat":34,
+            "lon":71,
+            "place_name":"Khyber Agency, Federally Administered Tribal Areas, Pakistan"
+        },
+        {  
+            "label":"Measles",
+            "lat":21.306899999999999,
+            "lon":-157.85830000000001,
+            "place_name":"Honolulu, Hawaii, United States"
+        },
+        {  
+            "label":"Measles",
+            "lat":-23.322099999999999,
+            "lon":143.9648,
+            "place_name":"Queensland, Australia"
+        },
+        {  
+            "label":"Avian Influenza H5N1",
+            "lat":27.1783,
+            "lon":31.1859,
+            "place_name":"Assiut, Egypt"
+        },
+        {  
+            "label":"Dengue",
+            "lat":19.165900000000001,
+            "lon":-101.8433,
+            "place_name":"Estado de Michoacán, Mexico"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":55.9634,
+            "lon":10.0463,
+            "place_name":"Denmark"
+        },
+        {  
+            "label":"Gastroenteritis",
+            "lat":34.6937,
+            "lon":135.50219999999999,
+            "place_name":"Osaka City, Osaka, Japan"
+        },
+        {  
+            "label":"Foodborne Illness",
+            "lat":16,
+            "lon":79,
+            "place_name":"Andhra Pradesh State, India"
+        },
+        {  
+            "label":"Tuberculosis",
+            "lat":25.75,
+            "lon":86.150000000000006,
+            "place_name":"Bihar State, India"
+        },
+        {  
+            "label":"Dengue",
+            "lat":5.3876999999999997,
+            "lon":100.426,
+            "place_name":"Seberang Perai, Pulau Pinang, Malaysia"
+        },
+        {  
+            "label":"Influenza, Swine Flu H1N1",
+            "lat":23.25,
+            "lon":78,
+            "place_name":"Madhya Pradesh State, India"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":52.165799999999997,
+            "lon":4.7069000000000001,
+            "place_name":"Ter Aar, South Holland, Netherlands"
+        },
+        {  
+            "label":"Respiratory Illness",
+            "lat":24.800000000000001,
+            "lon":-104.7,
+            "place_name":"Estado de Durango, Mexico"
+        },
+        {  
+            "label":"Legionnaires'",
+            "lat":42.4086,
+            "lon":-7.5434999999999999,
+            "place_name":"As Gándaras, Lugo, Spain"
+        },
+        {  
+            "label":"Legionnaires'",
+            "lat":43,
+            "lon":-7.5667,
+            "place_name":"Lugo, Galicia, Spain"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":9.7579999999999991,
+            "lon":105.64100000000001,
+            "place_name":"Hậu Giang Province, Vietnam"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":10.5,
+            "lon":105.16670000000001,
+            "place_name":"An Giang Province, Vietnam"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":10.666700000000001,
+            "lon":105.66670000000001,
+            "place_name":"Ðồng Tháp Province, Vietnam"
+        },
+        {  
+            "label":"Other Animal Disease",
+            "lat":10.166700000000001,
+            "lon":106,
+            "place_name":"Vĩnh Long Province, Vietnam"
+        },
+        {  
+            "label":"Enterovirus, Meningitis",
+            "lat":-23.2362,
+            "lon":-58.390999999999998,
+            "place_name":"Paraguay"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":44.503900000000002,
+            "lon":-70.216200000000001,
+            "place_name":"Jay, Maine, United States"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":34.479399999999998,
+            "lon":132.45310000000001,
+            "place_name":"Hiroshima City, Hiroshima, Japan"
+        },
+        {  
+            "label":"Norovirus",
+            "lat":37.2502,
+            "lon":-119.7503,
+            "place_name":"California, United States"
+        },
+        {  
+            "label":"West Nile Virus",
+            "lat":36.750599999999999,
+            "lon":-86.200000000000003,
+            "place_name":"Allen County, Kentucky, United States"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-19.0092,
+            "lon":-57.653300000000002,
+            "place_name":"Corumbá, Mato Grosso do Sul, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-20.910399999999999,
+            "lon":-56.3386,
+            "place_name":"Bonito, Mato Grosso do Sul, Brazil"
+        },
+        {  
+            "label":"Dengue",
+            "lat":18.6967,
+            "lon":-10.2075,
+            "place_name":"Adrar Region, Mauritania"
+        },
+        {  
+            "label":"Dengue",
+            "lat":16,
+            "lon":25.5,
+            "place_name":"North Darfur, Sudan"
+        },
+        {  
+            "label":"Dengue",
+            "lat":13,
+            "lon":23,
+            "place_name":"West Darfur, Sudan"
+        },
+        {  
+            "label":"Hantavirus",
+            "lat":-35.566699999999997,
+            "lon":-58.0167,
+            "place_name":"Chascomús, Buenos Aires, Argentina"
+        },
+        {  
+            "label":"Tuberculosis",
+            "lat":25.600000000000001,
+            "lon":85.117000000000004,
+            "place_name":"Patna, Bihār, India"
+        },
+        {  
+            "label":"Mumps",
+            "lat":46.725700000000003,
+            "lon":-117.01130000000001,
+            "place_name":"University of Idaho, Moscow, Idaho, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":14.583299999999999,
+            "lon":-4.4166999999999996,
+            "place_name":"Bamako, Mali"
+        },
+        {  
+            "label":"Dengue",
+            "lat":-22.190000000000001,
+            "lon":-42.665599999999998,
+            "place_name":"Rio de Janeiro, Brazil"
+        },
+        {  
+            "label":"Fever, Undiagnosed",
+            "lat":21.4939,
+            "lon":82.001900000000006,
+            "place_name":"Chhattisgarh State, India"
+        },
+        {  
+            "label":"Measles",
+            "lat":23.75,
+            "lon":85.5,
+            "place_name":"Jharkhand State, India"
+        },
+        {  
+            "label":"Fever",
+            "lat":11.199,
+            "lon":29.417899999999999,
+            "place_name":"South Kordofan, Sudan"
+        },
+        {  
+            "label":"Pests",
+            "lat":44.496499999999997,
+            "lon":-90,
+            "place_name":"Wisconsin, United States"
+        },
+        {  
+            "label":"Avian Influenza H5N8",
+            "lat":36,
+            "lon":138,
+            "place_name":"Honshū, Nagano, Japan"
+        },
+        {  
+            "label":"Leptospirosis",
+            "lat":25.772200000000002,
+            "lon":126.6687,
+            "place_name":"Okinawa Prefecture, Japan"
+        },
+        {  
+            "label":"Mononucleosis",
+            "lat":36.573700000000002,
+            "lon":-96.7042,
+            "place_name":"Fairfax, Oklahoma, United States"
+        },
+        {  
+            "label":"Ebola",
+            "lat":9.5380000000000003,
+            "lon":-13.677300000000001,
+            "place_name":"Conakry, Conakry, Guinea"
+        },
+        {  
+            "label":"Waterborne Illness",
+            "lat":42.739600000000003,
+            "lon":-73.787400000000005,
+            "place_name":"Town of Colonie, New York, United States"
+        },
+        {  
+            "label":"Avian Influenza, Avian Influenza H5N8",
+            "lat":52.140000000000001,
+            "lon":5.5846999999999998,
+            "place_name":"Barneveld, Gelderland, Netherlands"
+        },
+        {  
+            "label":"Dengue",
+            "lat":6.9000000000000004,
+            "lon":122.0667,
+            "place_name":"Zamboanga City, Philippines"
+        },
+        {  
+            "label":"Avian Influenza H5N1",
+            "lat":-7.5,
+            "lon":110,
+            "place_name":"Central Java, Indonesia"
+        },
+        {  
+            "label":"Avian Influenza H5N1",
+            "lat":-3.7999999999999998,
+            "lon":102.25,
+            "place_name":"Bengkulu, Indonesia"
+        },
+        {  
+            "label":"Avian Influenza H5N1",
+            "lat":-0.14430000000000001,
+            "lon":100.6371,
+            "place_name":"Sumatra, Indonesia"
+        },
+        {  
+            "label":"Crimean-Congo Hemorrhagic Fever",
+            "lat":25.525300000000001,
+            "lon":69.001199999999997,
+            "place_name":"Tharpārkar Gymkhāna, Sindh, Pakistan"
+        },
+        {  
+            "label":"Ebola",
+            "lat":14.4094,
+            "lon":-11.4475,
+            "place_name":"Kayes, Kayes, Mali"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":17.217700000000001,
+            "lon":-88.684799999999996,
+            "place_name":"Belize"
+        },
+        {  
+            "label":"Chikungunya",
+            "lat":13.7369,
+            "lon":-88.866500000000002,
+            "place_name":"El Salvador"
+        },
+        {  
+            "label":"Meningitis",
+            "lat":-28.466699999999999,
+            "lon":-65.783299999999997,
+            "place_name":"San Fernando del Valle de Catamarca, Catamarca, Argentina"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":49.770600000000002,
+            "lon":6.0877999999999997,
+            "place_name":"Luxembourg"
+        },
+        {  
+            "label":"Avian Influenza, Listeriosis",
+            "lat":46.802500000000002,
+            "lon":8.2344000000000008,
+            "place_name":"Switzerland"
+        },
+        {  
+            "label":"Listeriosis",
+            "lat":50.642800000000001,
+            "lon":4.6639999999999997,
+            "place_name":"Belgium"
+        },
+        {  
+            "label":"Polio",
+            "lat":30.187200000000001,
+            "lon":67.012500000000003,
+            "place_name":"Quetta, Balochistān, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":27.486799999999999,
+            "lon":66.587000000000003,
+            "place_name":"Khuzdār, Balochistān, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":30.703299999999999,
+            "lon":66.698999999999998,
+            "place_name":"Qila Abdullah, Pakistan"
+        },
+        {  
+            "label":"Polio",
+            "lat":31.416699999999999,
+            "lon":68.666700000000006,
+            "place_name":"Zhob District, Balochistān, Pakistan"
+        },
+        {  
+            "label":"Ebola",
+            "lat":21.621200000000002,
+            "lon":-79.036299999999997,
+            "place_name":"Cuba"
+        },
+        {  
+            "label":"Ebola",
+            "lat":46.166699999999999,
+            "lon":6.1666999999999996,
+            "place_name":"Geneva, Switzerland"
+        },
+        {  
+            "label":"Dengue",
+            "lat":28.466699999999999,
+            "lon":77.033299999999997,
+            "place_name":"Gurgaon, Haryana, India"
+        }
+    ]
+}

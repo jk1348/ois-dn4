@@ -1,0 +1,175 @@
+.ui-widget {
+  font-family: arial;
+  font-size: 10pt;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: hidden;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+
+.label_select, .label_select_expandable, .label_pin, .label_pin_expandable {
+  position: absolute;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.label_select {
+  padding: 3px 37px 3px 5px;
+  background-image: url('img/label_pin_and_close.png');
+  background-position: right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  z-index: 5;
+}
+
+.label_select_expandable {
+  padding: 3px 37px 3px 21px;
+  background-image: url('img/label_expand.png'), url('img/label_pin_and_close.png');
+  background-position: left center, right center;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  z-index: 5;
+}
+
+.label_pin {
+  padding: 3px 21px 3px 5px;
+  font-weight: bold;
+  background-image: url('img/label_close.png');
+  background-position: right center;
+  background-color: #C2D6EB;
+  border: 1px solid #000;
+  color: #000;
+  z-index: 4;
+}
+
+.label_pin_expandable {
+  padding: 3px 21px 3px 21px;
+  font-weight: bold;
+  background-image: url('img/label_expand.png'), url('img/label_close.png');
+  background-position: left center, right center;
+  background-color: #C2D6EB;
+  border: 1px solid #000;
+  color: #000;
+  z-index: 4;
+}
+
+.help-hidden {
+  border-radius: 0 0 17px 17px;
+  left: 17px;
+  position: absolute;
+  top: 568px;
+  display: block;
+  z-index:1;
+}
+
+.loading-feedback {
+  position: absolute;
+  left: 50%;
+  margin: -50px;
+  width: 240px;
+  top: 50%;
+  font-family: arial;
+  font-size: 12px;
+  border: 1px solid #6799CC;
+  border-radius: 7px 7px 7px 7px;
+  text-align: left;
+  padding: 7px 15px 15px 15px;
+  z-index: 50;
+}
+
+.loading-feedback label {
+	display: block;
+	font-size: 10px;
+	color: #999;
+	margin-bottom: 5px;
+}
+
+.loading-feedback div {
+	border: 1px solid #DFDFDF;
+	background-color: #F2F2F2;
+	width: 240px;
+	height: 8px;
+	position: relative
+}
+
+.loading-feedback div span {
+	height: 10px;
+	background-color: #6799CC;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+}
+
+.indicator {
+  position:absolute;
+  width:10px;
+  height:10px;
+  background:#000;
+  z-index:1000;
+  border-radius: 5px 5px 5px 5px;
+  left: -100px;
+  top: -100px;
+}
+
+.attrib_zy {
+  position: absolute;
+  background-color:#F0F0F0;
+  top: 100%;
+  z-index: 5;
+  width: 100%;
+  height: 36px;
+  margin: -36px 0 0 0;
+  font-size:11px;
+  padding-top:7px;
+ /*  color:#91ABC9; */
+  border-top: 1px solid #DFDFDF;
+}
+
+.attrib_zy  a{
+  text-decoration:none;
+  color:#91ABC9;
+}
+
+.attrib_zy span{
+	/* color: #666; */
+}
+
+.attrib_zy img{
+	vertical-align:middle;
+}
+
+#footer-left{ float:left; margin: 0 0 0 16px; }
+#footer-right{ float:right; margin: 3px 12px 0 0; color:#ACACAC; }
+
+.pop{ display:none; }
+.validationmsg{ color:red; }
+
+#sharethis{
+	color:black;
+	font-weight:bold;
+	float:right;
+}
+
+#copyright{
+	position:absolute;
+	top:100%;
+	left:100%;
+	margin: -56px 0 0 -302px;
+	font-size:11px;
+	color:#999;
+}
+
+#bg-contact p{
+	margin:5px 0 5px 0;
+}

@@ -1,0 +1,39 @@
+﻿{
+    "threads": [
+        {
+            "title": "Twisted ankle",
+            "data": [
+                {
+                    "text": "I twisted my ankle, what should I do? Will my leg fell off?!",
+                    "author": "Me",
+                    "class": ""
+                },
+                {
+                    "text": "Relax, put some ice packs on your ankle and keep your walking to a minimum. You'll be ok in a couple of days",
+                    "author": "The Doc.",
+                    "class": "blockquote-reverse"
+                },
+                {
+                    "text": "Thanks! I already feel better",
+                    "author": "Me",
+                    "class": ""
+                }
+            ]
+        },
+        {
+            "title": "Pain in chest",
+            "data": [
+                {
+                    "text": "I feel constant pain in my chest",
+                    "author": "Me",
+                    "class": ""
+                },
+                {
+                    "text": "I'd recommend you visit your local doctor.",
+                    "author": "The Doc.",
+                    "class": "blockquote-reverse"
+                }
+            ]
+        }
+    ]
+}

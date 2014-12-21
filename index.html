@@ -1,92 +1,311 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Konda.OIS.DN4">
+<head>
+    <title>OIS DN4</title>
 
-<!DOCTYPE html>
-<html>
-	<head>
-	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	    <title>EhrScape - Vnos in poizvedovanje po EHR podatkih</title>
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	    <script src="demo.js"></script>
-	    <style>
-	  		body {padding: 10px;}
-	  		.btn {margin-top: 10px;}
-	  		.obvestilo {margin-left:10px;}
-	  	</style>
-	</head>
-	<body>
-		<div class="page-header"><h2>Vnos in poizvedovanje po EHR podatkih <small>EhrScape platforma</small></h2></div>
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-lg-8 col-md-8 col-sm-8"><b>Kreiraj EHR zapis</b> za novega bolnika</div>
-							<div class="col-lg-4 col-md-4 col-sm-4"><select class="form-control input-sm" id="preberiPredlogoBolnika"><option value=""></option><option value="Pujsa,Pepa,1938-10-30T14:58">Pujsa Pepa</option></select></div>
-						</div>
-					</div>
-					<div class="panel-body">
-						<span class="label label-default">Ime</span><input id="kreirajIme" type="text" class="form-control input-mini" placeholder="Osama">
-						<span class="label label-default">Priimek</span><input id="kreirajPriimek" type="text" class="form-control" placeholder="Bin Laden">
-						<span class="label label-default">Datum rojstva</span><input id="kreirajDatumRojstva" type="text" class="form-control" placeholder="1957-03-10T09:08">
-						<button type="button" class="btn btn-primary btn-xs" onclick="kreirajEHRzaBolnika()">Dodaj osnovne podatke o bolniku</button><span id="kreirajSporocilo"></span>
-				  	</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-lg-8 col-md-8 col-sm-8"><b>Preberi EHR zapis</b> obstoječega bolnika</div>
-							<div class="col-lg-4 col-md-4 col-sm-4"><select class="form-control input-sm" id="preberiObstojeciEHR"><option value=""></option><option value="254f791d-2e7c-49d9-b646-376f62d6ead5">Dejan Lavbič</option><option value="d564c6a3-5a43-4fcc-bfa7-9ac76e9673bd">Pujsa Pepa</option><option value="b931580f-2b05-488b-985b-8d9ffb08ad02">Ata Smrk</option></select></div>
-						</div>
-					</div>
-					<div class="panel-body">
-						<span class="label label-default">EHR ID</span><input id="preberiEHRid" type="text" class="form-control input-mini" placeholder="7b661e12-3a98-21ad-c29e-2dc9f5a3d885">
-						<button type="button" class="btn btn-primary btn-xs" onclick="preberiEHRodBolnika()">Preberi osnovne podatke o bolniku</button><span id="preberiSporocilo"></span>
-				  	</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-lg-8 col-md-8 col-sm-8"><b>Vnos</b> meritve <b>vitalnih znakov</b> bolnika</div>
-							<div class="col-lg-4 col-md-4 col-sm-4"><select class="form-control input-sm" id="preberiObstojeciVitalniZnak"><option value=""></option><option value="b931580f-2b05-488b-985b-8d9ffb08ad02|2014-11-21T11:40Z|185|80.0|36.50|118|92|98|medicinska sestra Smrketa">Ata Smrk</option></select></div>
-						</div>
-					</div>				
-					<div class="panel-body">
-						<span class="label label-default">EHR ID</span><input id="dodajVitalnoEHR" type="text" class="form-control input-mini" placeholder="7b661e12-3a98-21ad-c29e-2dc9f5a3d885">
-						<span class="label label-default">Datum in ura</span><input id="dodajVitalnoDatumInUra" type="text" class="form-control input-mini" placeholder="2014-11-21T11:40Z">
-						<span class="label label-default">Telesna višina</span><div class="input-group"><input id="dodajVitalnoTelesnaVisina" type="text" class="form-control input-mini" placeholder="185"><span class="input-group-addon">cm</span></div>
-						<span class="label label-default">Telesna teža</span><div class="input-group"><input id="dodajVitalnoTelesnaTeza" type="text" class="form-control input-mini" placeholder="80.00"><span class="input-group-addon">kg</span></div>
-						<span class="label label-default">Telesna temperatura</span><div class="input-group"><input id="dodajVitalnoTelesnaTemperatura" type="text" class="form-control input-mini" placeholder="36.50"><span class="input-group-addon">°C</span></div>
-						<span class="label label-default">Sistolični krvni tlak</span><div class="input-group"><input id="dodajVitalnoKrvniTlakSistolicni" type="text" class="form-control input-mini" placeholder="118"><span class="input-group-addon">mm Hg</span></div>
-						<span class="label label-default">Diastolični krvni tlak</span><div class="input-group"><input id="dodajVitalnoKrvniTlakDiastolicni" type="text" class="form-control input-mini" placeholder="92"><span class="input-group-addon">mm Hg</span></div>
-						<span class="label label-default">Nasičenost krvi s kisikom</span><div class="input-group"><input id="dodajVitalnoNasicenostKrviSKisikom" type="text" class="form-control input-mini" placeholder="98"><span class="input-group-addon">%</span></div>
-						<span class="label label-default">Merilec</span><input id="dodajVitalnoMerilec" type="text" class="form-control input-mini" placeholder="medicinska sestra Hrastova Micka">
-						<button type="button" class="btn btn-primary btn-xs" onclick="dodajMeritveVitalnihZnakov()">Dodaj meritve vitalnih znakov</button><span id="dodajMeritveVitalnihZnakovSporocilo"></span>
-				  	</div>
-				</div>
-			</div>	
-			<div class="col-lg-6 col-md-6 col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6"><b>Pregled</b> meritev <b>vitalnih znakov</b> bolnika</div>
-							<div class="col-lg-3 col-md-3 col-sm-3"><select class="form-control input-sm" id="preberiTipZaVitalneZnake"><option value="telesna temperatura">telesna temperatura</option><option value="telesna temperatura AQL">telesna temperatura (filter na podhladitev)</option><option value="telesna teža">telesna teža</option></select></div>
-							<div class="col-lg-3 col-md-3 col-sm-3"><select class="form-control input-sm" id="preberiEhrIdZaVitalneZnake"><option value=""></option><option value="b931580f-2b05-488b-985b-8d9ffb08ad02">Ata Smrk</option><option value="d564c6a3-5a43-4fcc-bfa7-9ac76e9673bd">Pujsa Pepa</option></select></div>
-						</div>
-					</div>				
-					<div class="panel-body">
-						<span class="label label-default">EHR ID</span><input id="meritveVitalnihZnakovEHRid" type="text" class="form-control input-mini" placeholder="7b661e12-3a98-21ad-c29e-2dc9f5a3d885">
-						<button type="button" class="btn btn-primary btn-xs" onclick="preberiMeritveVitalnihZnakov('telesna temperatura')">Preberi meritve vitalnih znakov</button><span id="preberiMeritveVitalnihZnakovSporocilo"></span>
-						<div id="rezultatMeritveVitalnihZnakov"></div>
-				  	</div>
-				</div>			
-			</div>
-		</div>
-	</body>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css" />
+    <link rel="Stylesheet" type="text/css" href="css/main_ui.css"/>
+    <link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" rel="Stylesheet"/>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+
+
+    <script src="app/directives/nvd3-directives.js"></script>
+    <script src="app/directives/geolocation.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/heartCircleCtrl.js"></script>
+    <script src="app/controllers/bodyHeightCtrl.js"></script>
+    <script src="app/controllers/bodyTempCtrl.js"></script>
+    <script src="app/controllers/threatsCtrl.js"></script>
+    <script src="app/controllers/generatorCtrl.js"></script>
+    <script src="app/controllers/O2Ctrl.js"></script>
+    <script src="app/controllers/bloodPreasureCtrl.js"></script>
+    <script src="app/controllers/doctorCtrl.js"></script>
+    <script src="app/controllers/fewerCtrl.js"></script>
+    <script src="app/controllers/bodyWeight.js"></script>
+    <script src="app/services/ehrScapeService.js"></script>
+    <script src="app/controllers/mapCtrl.js"></script>
+
+    <script type="text/javascript">
+        var o3v = {}; // open-3d-viewer namespace
+        $(document).ready(function() {
+            window.viewer_ = new o3v.Viewer();
+        });
+    </script>
+
+
+    <!-- Webgl -->
+    <script type="text/javascript" src="scripts/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="scripts/webgl.js"></script>
+    <script type="text/javascript" src="scripts/loader.js"></script>
+    <script type="text/javascript" src="scripts/renderer.js"></script>
+    <script type="text/javascript" src="scripts/webgl_util.js"></script>
+    <!-- o3v specific -->
+    <script type="text/javascript" src="scripts/common.js"></script>
+    <script type="text/javascript" src="scripts/models.js"></script>
+    <script type="text/javascript" src="scripts/entities.js"></script>
+    <script type="text/javascript" src="scripts/content.js"></script>
+    <script type="text/javascript" src="scripts/layer.js"></script>
+    <script type="text/javascript" src="scripts/history.js"></script>
+    <script type="text/javascript" src="scripts/layers_ui.js"></script>
+    <script type="text/javascript" src="scripts/gestures.js"></script>
+    <script type="text/javascript" src="scripts/select.js"></script>
+    <script type="text/javascript" src="scripts/label.js"></script>
+    <script type="text/javascript" src="scripts/nav_ui.js"></script>
+    <script type="text/javascript" src="scripts/navigate.js"></script>
+    <script type="text/javascript" src="scripts/input_handler.js"></script>
+    <script type="text/javascript" src="scripts/search.js"></script>
+    <script type="text/javascript" src="scripts/select.js"></script>
+    <script type="text/javascript" src="scripts/interpolant.js"></script>
+    <script type="text/javascript" src="scripts/opacity.js"></script>
+    <script type="text/javascript" src="scripts/main_ui.js"></script>
+    <script type="text/javascript" src="scripts/render_interface.js"></script>
+    <script type="text/javascript" src="scripts/viewer.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jaka Konda">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setInterval(function () {
+                if($("#labelcontainer .label_select").length <= 0)
+                    return;
+
+                $("#body_part").val($("#labelcontainer .label_select").text());
+
+            }, 1000);
+        });
+    </script>
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">EHR</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown" ng-controller="GeneratorCtrl as gen">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ gen.selected }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="?subject=1">Fyodor Dostoyevsky</a></li>
+                            <li><a href="?subject=2">Hitman Agent 47</a></li>
+                            <li><a href="?subject=3">Child The Famous</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="panel panel-info" ng-controller="ThreatsCtrl as threats">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Threats Nearby <span class="badge">Reported away from your location</span></h3>
+                </div>
+                <div class="panel-body" style="height: 220px">
+                    <ul class="list-group">
+                        <li class="list-group-item danger" ng-repeat="i in threats.threats" ng-class="i.class"><span class="badge">{{ i.place_name }} {{ i.dst }}km</span>{{ i.label }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="col-md-4">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Live Heart Rate Connected to Microsoft Band</h3>
+                </div>
+                <div class="panel-body" ng-controller="HeartCircleCtrl">
+                    <div class="col-md-12">
+
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="col-md-4">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Body Height</h3>
+                </div>
+                <div class="panel-body" ng-controller="BodyHeightCtrl as height">
+                    <nvd3 options="height.options" data="height.data" class="with-3d-shadow with-transitions"></nvd3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Body Temperature</h3>
+                </div>
+                <div class="panel-body" ng-controller="BodyTempCtrl as temp">
+                    <nvd3 options="temp.options" data="temp.data" class="with-3d-shadow with-transitions"></nvd3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-info ">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Body</h3>
+                </div>
+                <div class="panel-body" id="body">
+                    <canvas id="gltest" style="display: none"></canvas>
+
+                    <div id="labelcontainer" style="width: 0px; height: 0px; left: 0px; top: 0px; position: absolute; z-index: 1;"></div>
+
+                    <div id="opac_idx" style="display: none; left: 50%; top: 100%; position: absolute; margin-top: -50px; color: #06F; z-index: 3; margin-left: -89px"></div>
+                    <div id="r0" class="indicator"> </div>
+                    <div id="r1" class="indicator"> </div>
+                    <div id="r2" class="indicator"> </div>
+                    <div id="r3" class="indicator"> </div>
+                    <div id="r4" class="indicator"> </div>
+                    <div id="r5" class="indicator"> </div>
+                    <div id="r6" class="indicator"> </div>
+                    <div id="r7" class="indicator"> </div>
+                    <div id="loading-feedback" class="loading-feedback" style="visibility: hidden; display: none">
+                        <label>LOADING</label>
+                        <div>
+                            <span id="loading-bar" style="width: 0px;"></span>
+                        </div>
+                    </div>
+
+                    <div id="note" class="pop">
+                        <div id="bg-note"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Contact Doctor</h3>
+                </div>
+                <div class="panel-body" ng-controller="DoctorCtrl as doc">
+                    <h4>Existing threads</h4>
+                    <accordion close-others="oneAtATime">
+                        <accordion-group heading="{{ th.title }}" ng-repeat="th in doc.threads">
+                            <blockquote ng-repeat="i in th.data" ng-class="i.class">
+                                {{ i.text }}<footer>{{ i.author }}</footer>
+                            </blockquote>
+                        </accordion-group>
+                    </accordion>
+
+                    <h4>New Problem</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Problematic area (you can select in viewer)</label>
+                            <input type="text" class="form-control" id="body_part" placeholder="Enter body part">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Description</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">Upload picture</label>
+                            <input type="file">
+                            <p class="help-block">Form does not actually work</p>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Blood pressure</h3>
+                </div>
+                <div class="panel-body" ng-controller="BloodPressureCtrl as blood">
+                    <nvd3 options="blood.options" data="blood.data" class="with-3d-shadow with-transitions"></nvd3>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Body Weight</h3>
+                </div>
+                <div class="panel-body" ng-controller="BodyWeightCtrl as weight">
+                    <nvd3 options="weight.options" data="weight.data" class="with-3d-shadow with-transitions"></nvd3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Fewer Days</h3>
+                </div>
+                <div class="panel panel-info" ng-controller="FewerCtrl as fewer">
+                    <ul class="list-group">
+                        <li class="list-group-item danger" ng-repeat="i in fewer.data"><span class="badge">{{ i.temperature }}°C</span>{{ i.time }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="panel panel-info" ng-controller="O2Ctrl as o2">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Oxygen</h3>
+                </div>
+                <div class="panel-body">
+                    <nvd3 options="o2.options" data="o2.data" class="with-3d-shadow with-transitions"></nvd3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrap").toggleClass("toggled");
+        });
+    </script>
+
+</body>
 </html>
